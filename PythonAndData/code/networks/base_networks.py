@@ -43,11 +43,7 @@ class DummyNetwork(Network):
         :param x: The input to the network
         :return: results of computation of sigmoid on the input
         """
-
-
-        pass
-
- 
+        x = 1 / (1 + np.exp(-x))
 
         return x
 
